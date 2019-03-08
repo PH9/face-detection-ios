@@ -12,6 +12,9 @@
 		6544A740223244F2001663ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6544A73E223244F2001663ED /* Main.storyboard */; };
 		6544A742223244F3001663ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6544A741223244F3001663ED /* Assets.xcassets */; };
 		6544A745223244F3001663ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6544A743223244F3001663ED /* LaunchScreen.storyboard */; };
+		6544A74E22324E0E001663ED /* FaceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544A74D22324E0E001663ED /* FaceDetector.swift */; };
+		6544A75122324E2B001663ED /* GreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544A75022324E2B001663ED /* GreenView.swift */; };
+		6544A7532232506F001663ED /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544A7522232506F001663ED /* Camera.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		6544A741223244F3001663ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6544A744223244F3001663ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6544A746223244F3001663ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6544A74D22324E0E001663ED /* FaceDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetector.swift; sourceTree = "<group>"; };
+		6544A75022324E2B001663ED /* GreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenView.swift; sourceTree = "<group>"; };
+		6544A7522232506F001663ED /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				6544A73A223244F2001663ED /* AppDelegate.swift */,
-				6544A73C223244F2001663ED /* ViewController.swift */,
-				6544A73E223244F2001663ED /* Main.storyboard */,
 				6544A741223244F3001663ED /* Assets.xcassets */,
-				6544A743223244F3001663ED /* LaunchScreen.storyboard */,
+				6544A74D22324E0E001663ED /* FaceDetector.swift */,
+				6544A75022324E2B001663ED /* GreenView.swift */,
 				6544A746223244F3001663ED /* Info.plist */,
+				6544A743223244F3001663ED /* LaunchScreen.storyboard */,
+				6544A73E223244F2001663ED /* Main.storyboard */,
+				6544A73C223244F2001663ED /* ViewController.swift */,
+				6544A7522232506F001663ED /* Camera.swift */,
 			);
 			path = FaceDetection;
 			sourceTree = "<group>";
@@ -136,6 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6544A73D223244F2001663ED /* ViewController.swift in Sources */,
+				6544A7532232506F001663ED /* Camera.swift in Sources */,
+				6544A74E22324E0E001663ED /* FaceDetector.swift in Sources */,
+				6544A75122324E2B001663ED /* GreenView.swift in Sources */,
 				6544A73B223244F2001663ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
